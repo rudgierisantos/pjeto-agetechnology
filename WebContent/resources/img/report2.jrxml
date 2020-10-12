@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7dbb6607-2c5d-47d5-a2ea-115fec7d1b54">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="277" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="90" width="295" height="20" uuid="2d5cbf81-9c68-4a78-a114-a91c2f24bd43"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[segurança  no final desta locação ou na hipótese  de rescisão do presente contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="120" width="295" height="20" uuid="bbf673bd-d42d-4ce8-88f5-174c166d89bb"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[              Declara que recebeu instrução do(s) ben(s) e de sua segurança e se]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="110" width="295" height="20" uuid="2d623f3a-3704-4da0-adc2-d839e45963d3"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[necessários na utilização desse(s) bem(s) movel(is) alugados.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="60" width="295" height="20" uuid="ead6c2b8-84eb-4bf9-a3a2-39c199234edd"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[segurança.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="40" width="295" height="20" uuid="84af3cd7-fb50-4866-8c23-16321e44ce7c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[instrumento, declarando têlo(s) testado(s) e aprovado(s) previamente e afirmando]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="80" width="295" height="20" uuid="5a65599b-142a-40a1-a77f-36215cb313e5"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[se obriga a devolve-lo(s) em idênticas condições de funcionamento, limpeza e ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="305" y="-10" width="65" height="20" uuid="5aa36c77-6383-45bd-8737-2bf56fba357a"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[     Total Equip]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="140" width="48" height="20" uuid="c9717af8-f0a2-43b9-93c7-f63614246a38"/>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="-10" width="65" height="20" uuid="50feea10-2f09-46bc-8b62-1c8066a4c43d"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[    Total Locação]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="479" y="90" width="48" height="20" uuid="0d880f92-08e1-4f80-8e64-c870bb82bd9f"/>
+				<text><![CDATA[Hora]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="90" width="48" height="20" uuid="3535b74d-0f73-4f16-9ad7-eb570acc74b4"/>
+				<text><![CDATA[Data]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="486" y="140" width="48" height="20" uuid="71654015-8812-4547-9865-6b79b182efc8"/>
+				<text><![CDATA[Hora]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="10" width="65" height="20" uuid="7c68041d-d6b7-4557-bd90-080d6cd331d2"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[      Frete]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="70" width="157" height="20" uuid="b8ffabc2-780f-42f6-b180-06fb8f2c1da5"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Saída dos Equipamentos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="30" width="65" height="20" uuid="3c71aa4c-59b8-4a88-b969-b0898d0a11a1"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[       Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="377" y="120" width="157" height="20" uuid="2b510ab4-4076-4e94-aa24-fb1b118e9cdc"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Retorno dos Equipamentos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="134" y="204" width="100" height="20" uuid="19ac8755-d33d-4824-bc9c-bf930f923f3f"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Assinatura]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
